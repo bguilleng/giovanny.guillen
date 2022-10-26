@@ -1,0 +1,44 @@
+#modal {
+  position: fixed;
+  left: 10%;
+  top: 15%;
+  height: 500px;
+  width: 80%;
+  background-color: white;
+  display: none;
+}
+
+#modal2 {
+  position: fixed;
+  left: 10%;
+  top: 15%;
+  background-color: white;
+  display: none;
+}
+
+.close {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.estilo1 {
+  width: 100%;
+  height: 100%;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-sizing: border-box;;
+	
+}
+
+.estilo2{
+	border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;
+}
+/* Styling for Small-Screen Devices */
